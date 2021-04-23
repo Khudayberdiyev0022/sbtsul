@@ -1,0 +1,90 @@
+.main {
+   padding: 0;
+   margin: 0;
+   overflow-y: hidden;
+   background: #0f2b53;
+}
+.skewedBox {
+   /* width: 80%; */
+   background: #fff;
+   padding: 100px 50px;
+   transform: skew(0deg, -10deg) translateY(-150px);
+}
+.container {
+   padding: 100px;
+   transform: skew(0deg, 10deg);
+}
+
+.container p {
+   margin: 0;
+   padding: 0;
+   font-size: 1em;
+   line-height: 1.5em;
+   width: 80%;
+}
+.rahbariyatLink {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+}
+.rahbariyatLink a {
+   color: #0f2b53;
+   text-transform: uppercase;
+   text-decoration: underline;
+   letter-spacing: 3px;
+   font-size: 3em;
+   margin: 0 auto;
+   text-align: center !important;
+}
+.rahbariyatLink:hover a {
+   text-decoration: none;
+ } 
+.container button {
+   /* width: 10%; */
+   padding: 5px 25px;
+   font-size: 1.5em;
+   font-weight: 300;
+   margin: 20px 0px;
+   border-radius: 4px;
+   color: #fff;
+   background: #0f2b53;
+   outline: none;
+   cursor: pointer;
+}
+.main h2 {
+   margin: 0;
+   padding: 20px 0;
+   font-size: 3em;
+}
+.main .rektor {
+   margin-bottom: 15px;
+   /* padding: 0; */
+   font-size: 1.5em;
+   line-height: 1.5em;
+}
+.sec2 {
+   padding: 0 200px 150px;
+   color: #fff;
+   text-align: right;
+}
+.sec2 p {
+   margin: 0;
+   padding: 0;
+   font-size: 1.2em;
+   line-height: 1.5em;
+   /* width: 80%; */
+}
+.sec2 button {
+   /* width: 10%; */
+   padding: 5px 25px;
+   font-size: 1.5em;
+   font-weight: 300;
+   margin: 20px 0px;
+   border-radius: 4px;
+   color: #0f2b53;
+   background: #fff;
+   outline: none;
+   cursor: pointer;
+}
