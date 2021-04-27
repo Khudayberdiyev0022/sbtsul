@@ -24,17 +24,17 @@ const Home1 = () => {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div className={style.opacityImg}></div>
+            {/* <div className={style.opacityImg}></div> */}
             <div>
             <img className={style.imgCarousel} src={slider1} alt="First slide" />
             </div>
           </div>
           <div className="carousel-item" id="opacityRel">
-            <div className={style.opacityImg}></div>
+            {/* <div className={style.opacityImg}></div> */}
             <img className={style.imgCarousel} src={slider2} alt="Second slide" />
           </div>
           <div className="carousel-item" id="opacityRel">
-            <div className={style.opacityImg}></div>
+            {/* <div className={style.opacityImg}></div> */}
             <img className={style.imgCarousel} src={slider1} alt="Thrid slide" />
           </div>
         </div>

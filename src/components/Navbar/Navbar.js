@@ -1,70 +1,92 @@
 import React from "react";
 import style from "./Navbar.module.css";
 import logo from "../../assets/icons/logoFT.svg";
-import { Link } from "react-router-dom";
-import {AiFillCaretDown} from 'react-icons/ai'
+import { NavLink } from "react-router-dom";
+import { AiFillCaretDown } from "react-icons/ai";
 
 const Navbar = () => {
   return (
     <div className={style.main}>
       <div className={style.container}>
         <div className={style.navbar}>
-          <Link to="/">
+          <NavLink to="/" activeStyle={{ color: "#0f2b53" }}>
             <img src={logo} alt="logo" />
-          </Link>
+          </NavLink>
 
           <div className={style.titleAll}>
             <h2>
-              TOSHKENT DAVLAT YURIDIK UNIVERSITETINING IXTISOSLASHTIRILGAN FILIALI
+              TOSHKENT DAVLAT YURIDIK UNIVERSITETINING IXTISOSLASHTIRILGAN
+              FILIALI
             </h2>
             <div className={style.titleName}>
               <div className={style.navbarLink}>
-                <Link to="/filial">
+                <NavLink to="/filial" activeStyle={{ color: "white" }}>
                   Filial <span></span>
-                </Link>
+                </NavLink>
               </div>
               <div className={style.navbarLink}>
-                <Link to="/tuzilma">
+                <NavLink to="/tuzilma" activeStyle={{ color: "white" }}>
                   Tuzilma <span></span>
                   <AiFillCaretDown />
-                </Link>
+                </NavLink>
+                <div className={style.hoverDiv}>
+                  <NavLink to="/kengash">Kengash</NavLink>
+                  <NavLink to="/rahbariyat">Rahbariyat</NavLink>
+                  <NavLink to="/dekanatlar">Dekanatlar</NavLink>
+                  <NavLink to="/kafedralar">Kafedralar</NavLink>
+                  <NavLink to="/bolimlar">Bo'limlar</NavLink>
+                  <NavLink to="/axborot-resurs-markazi">
+                    Axborot-Resurs markazi
+                  </NavLink>
+                </div>
               </div>
               <div className={style.navbarLink}>
-                <Link to="/faoliyat">
+                <NavLink to="/faoliyat" activeStyle={{ color: "white" }}>
                   Faoliyat <span></span>
-                </Link>
+                  <AiFillCaretDown />
+                </NavLink>
+                <div className={style.hoverDiv}>
+                  <NavLink to="/ilmiy-faoliyat">Ilmiy Faoliyat</NavLink>
+                  <NavLink to="/xalqaro-hamkorlik">Xalqaro Hamkorlik</NavLink>
+                </div>
               </div>
               <div className={style.navbarLink}>
-                <Link to="/talabalar">
+                <NavLink to="/talabalar" activeStyle={{ color: "white" }}>
                   Talabalar <span></span>
-                </Link>
+                </NavLink>
               </div>
               <div className={style.navbarLink}>
-                <Link to="/qabul">
+                <NavLink to="/qabul" activeStyle={{ color: "white" }}>
                   Qabul <span></span>
-                </Link>
+                </NavLink>
               </div>
               <div className={style.navbarLink}>
-                <Link to="/bizhaqimizda">
+                <NavLink to="/bizhaqimizda" activeStyle={{ color: "white" }}>
                   Biz haqimizda <span></span>
-                </Link>
+                </NavLink>
               </div>
               <div className={style.navbarLink}>
-                <Link to="/aloqa">
+                <NavLink to="/aloqa" activeStyle={{ color: "white" }}>
                   Aloqa <span></span>
-                </Link>
+                </NavLink>
               </div>
             </div>
           </div>
           <div className={style.languageBlock}>
             <div className={style.languageBox}>
-              <Link to="/uzb">UZB</Link>
+              <NavLink to="/" activeStyle={{ color: "white" }}>
+                UZB
+              </NavLink>
             </div>
             <div className={style.languageBox}>
-              <Link to="/rus">RUS</Link>
+              <NavLink to="/rus" activeStyle={{ color: "white" }}>
+                RUS
+              </NavLink>
             </div>
             <div className={style.languageBox}>
-              <Link to="eng">ENG</Link>
+              <NavLink to="eng" activeStyle={{ color: "white" }}>
+                ENG
+              </NavLink>
             </div>
           </div>
         </div>

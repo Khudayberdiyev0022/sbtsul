@@ -98,3 +98,22 @@
   border-bottom: 2px solid rgb(194, 194, 194);
   width: 100%;
 }
+
+@media screen and (max-width: 900px) {
+  .linkBlock a {
+    font-size: 2em;
+  }
+  .leftBlock {
+   flex-direction: column;
+  }
+  .leftBlock .box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .container h4 {
+    width: 100%;
+  }
+  .container p {
+    width: 100%;
+  }
+}

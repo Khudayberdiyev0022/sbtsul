@@ -36,26 +36,26 @@ export const structures = [
    {
       icon: icon2,
       title: "Rahbariyat",
-      to:'/sdfhjk'
+      to:'/rahbariyat'
    },
    {
       icon: icon3,
       title: "Dekanatlar",
-      to:'/sdfhjk'
+      to:'/dekanatlar'
    },
    {
       icon: icon4,
       title: "Kafedralar",
-      to:'/sdfhjk'
+      to:'/kafedralar'
    },
    {
       icon: icon5,
       title: "Bo'limlar",
-      to:'/sdfhjk'
+      to:'/bolimlar'
    },
    {
       icon: icon6,
       title: "Axborot-Resurs Markazi",
-      to:'/sdfhjk'
+      to:'/axborot-resurs-markazi'
    },
 ]

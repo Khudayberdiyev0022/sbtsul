@@ -15,8 +15,7 @@ const Home7 = () => {
           return (
             <div key={index} className={style.box}>
               <img src={structure.icon} alt="icon" />
-              <h3>{structure.title}</h3>
-              <Link to={structure.to}>link</Link>
+              <Link to={structure.to}>{structure.title}</Link>
             </div>
           );
         })}

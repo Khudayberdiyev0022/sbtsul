@@ -5,7 +5,6 @@
    background: #0f2b53;
 }
 .skewedBox {
-   /* width: 80%; */
    background: #fff;
    padding: 100px 50px;
    transform: skew(0deg, -10deg) translateY(-150px);
@@ -42,7 +41,6 @@
    text-decoration: none;
  } 
 .container button {
-   /* width: 10%; */
    padding: 5px 25px;
    font-size: 1.5em;
    font-weight: 300;
@@ -60,7 +58,6 @@
 }
 .main .rektor {
    margin-bottom: 15px;
-   /* padding: 0; */
    font-size: 1.5em;
    line-height: 1.5em;
 }
@@ -74,10 +71,8 @@
    padding: 0;
    font-size: 1.2em;
    line-height: 1.5em;
-   /* width: 80%; */
 }
 .sec2 button {
-   /* width: 10%; */
    padding: 5px 25px;
    font-size: 1.5em;
    font-weight: 300;
@@ -87,4 +82,36 @@
    background: #fff;
    outline: none;
    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+   .container {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 0;
+   }
+   .sec2 {
+      padding: 0 50px 0;
+   }
+   .sec2 p {
+      width: 100%;
+      font-size: 16px;
+   }
+   .container p {
+      width: 100%;
+      font-size: 16px;
+   }
+   .main h2 {
+      line-height: 1;
+      font-size: 24px;
+      font-weight: 600;
+   }
+   .main .rektor {
+      font-size: 22px;
+      line-height: 1;
+      /* margin-bottom: 20px; */
+   }
+   .rahbariyatLink a {
+      font-size: 2em;
+   }
 }

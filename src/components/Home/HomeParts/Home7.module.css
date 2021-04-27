@@ -50,10 +50,16 @@
     height: 50px;
     fill: ;
  } */
- .box h3 {
+ .box a {
     padding-top: 10px;
     font-size: 20px;
     text-align: center;
     color: #fff;
     text-transform: capitalize;
+ }
+
+ @media screen and (max-width: 900px) {
+   .linkBlock a {
+      font-size: 2em;
+    }
  }

@@ -24,7 +24,7 @@ const Home3 = () => {
             boshlab, 2003-2005 yillarda Toshkent davlat yuridik instituti oʼquv
             boʼlimi katta noziri, 2007–2012 yillarda Toshkent davlat yuridik
             instituti “Sud va huquqni muhofaza qiluvchi organlar” kafedrasi
-            oʼqituvchisi, 2012-2013 yillarda Toshkent davlat yuridik instituti
+            {/* oʼqituvchisi, 2012-2013 yillarda Toshkent davlat yuridik instituti
             “Jinoyat protsessual huquqi” kafedrasi oʼqituvchisi, 2013-2014
             yillarda Toshkent davlat yuridik universiteti Sud va huquqni
             muhofaza qiluvchi organlar kafedrasi oʼqituvchisi, Toshkent davlat
@@ -36,9 +36,9 @@ const Home3 = () => {
             lavozimlarida ishlagan. Oʼzbekiston Respublikasi Аdliya vazirining
             2019 yil 6 martdagi 160-sht-son buyrugʼi bilan Toshkent davlat
             yuridik universiteti Ixtisoslashtirilgan filiali direktorining
-            oʼquv-tarbiyaviy ishlar boʼyicha oʼrinbosari lavozimiga tayinlangan.
+            oʼquv-tarbiyaviy ishlar boʼyicha oʼrinbosari lavozimiga tayinlangan. */}
           </p>
-          <button type="button">Batafsil...</button>
+         <Link to='/baxtiyorovich'> <button type="button">Batafsil...</button> </Link>
         </div>
       </div>
       <div className={style.sec2}>
@@ -54,7 +54,7 @@ const Home3 = () => {
           moliyasini boshqarish” ixtisosligi boʼyicha magistraturani tugatgan. U
           2005 yil Shvetsiya, 2006-2007 yillar Shveytsariya va 2016 yil Yaponiya
           davlatlarida xalqaro student almashish dasturlari tinglovchisi boʼlib
-          qaytgan. Mehnat faoliyatini 2008 yilda “Bayteks-Ticaret” chet el
+          {/* qaytgan. Mehnat faoliyatini 2008 yilda “Bayteks-Ticaret” chet el
           korxonasi markaziy rejalashtirish boʼlimi mutaxassisi lavozimidan
           boshlagan. 2009–2010-yillarda Oʼzbekiston Respublikasi Moliya
           vazirligi Oʼquv markazi buxgalteri, 2010-2012 yillarda Oʼzbekiston
@@ -69,9 +69,9 @@ const Home3 = () => {
           ishlagan. Oʼzbekiston Respublikasi Аdliya vazirining 2019 yil 6
           martdagi 160-sht-son buyrugʼi bilan Toshkent davlat yuridik
           universiteti Ixtisoslashtirilgan filiali direktorining moliya-xoʼjalik
-          ishlari boʼyicha oʼrinbosari lavozimiga tayinlangan.
+          ishlari boʼyicha oʼrinbosari lavozimiga tayinlangan. */}
         </p>
-        <button type="button">Batafsil...</button>
+        <Link to="/kaxramonovich"><button type="button">Batafsil...</button></Link>
       </div>
     </div>
   );
