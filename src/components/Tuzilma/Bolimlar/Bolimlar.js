@@ -12,8 +12,8 @@ const Bolimlar = () => {
         <Link to="/buxgalteriya-bolimi">
           <li>BUXGALTERIYA BO'LIMI</li>
         </Link>
-        <Link to="/mx-bolimi">
-          <li>MOLIYA-XO'JALIK BO'LIMI</li>
+        <Link to="/mi-bolimi">
+          <li>MOLIYA-IQTISOD BO'LIMI</li>
         </Link>
         <Link to="/ou-bolimi">
           <li>O'QUV USLUBIY BO'LIMI</li>

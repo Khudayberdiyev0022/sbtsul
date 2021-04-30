@@ -1,0 +1,150 @@
+.main {
+   padding: 0;
+   margin: 0;
+   overflow-y: hidden;
+   background: #0f2b53;
+   width: 100%;
+}
+
+.skewedBox {
+   
+   background: #fff;
+   padding: 100px 50px;
+   transform: skew(0deg, -10deg) translateY(-150px);
+
+}
+.img1{
+   width: 50%;
+   height: 70vh;
+   background-size: contain;
+   background-repeat: no-repeat;
+   
+
+}
+.text{
+   width: 100%;
+}
+.container {
+   padding: 100px 0;
+   transform: skew(0deg, 10deg);
+      display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.container p {
+   margin: 0;
+   padding: 0;
+   font-size: 1em;
+   line-height: 1.5em;
+   width: 80%;
+}
+.rahbariyatLink {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+}
+.rahbariyatLink a {
+   color: #0f2b53;
+   text-transform: uppercase;
+   text-decoration: underline;
+   letter-spacing: 3px;
+   font-size: 3em;
+   margin: 0 auto;
+   text-align: center !important;
+}
+.rahbariyatLink:hover a {
+   text-decoration: none;
+ } 
+.container button {
+   padding: 5px 25px;
+   font-size: 1.5em;
+   font-weight: 300;
+   margin: 20px 0px;
+   border-radius: 4px;
+   color: #fff;
+   background: #0f2b53;
+   outline: none;
+   cursor: pointer;
+}
+.main h2 {
+   margin: 0;
+   padding: 20px 0;
+   font-size: 3em;
+}
+.main .rektor {
+   margin-bottom: 15px;
+   font-size: 1.5em;
+   line-height: 1.5em;
+}
+.sec2 {
+   padding: 0 100px 150px;
+   color: #fff;
+   text-align: right;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.sec2 .img{
+   width: 50%;
+   max-width: 400px;
+   height: 70vh;
+   margin-right: 25px;
+   background-size: contain;
+   background-repeat: no-repeat;
+
+}
+.content{
+   width: 100%;
+}
+.sec2 p {
+   margin: 0;
+   padding: 0;
+   font-size: 1.2em;
+   line-height: 1.5em;
+}
+.sec2 button {
+   padding: 5px 25px;
+   font-size: 1.5em;
+   font-weight: 300;
+   margin: 20px 0px;
+   border-radius: 4px;
+   color: #0f2b53;
+   background: #fff;
+   outline: none;
+   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+   .container {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 0;
+   }
+   .sec2 {
+      padding: 0 50px 0;
+   }
+   .sec2 p {
+      width: 100%;
+      font-size: 16px;
+   }
+   .container p {
+      width: 100%;
+      font-size: 16px;
+   }
+   .main h2 {
+      line-height: 1;
+      font-size: 24px;
+      font-weight: 600;
+   }
+   .main .rektor {
+      font-size: 22px;
+      line-height: 1;
+      /* margin-bottom: 20px; */
+   }
+   .rahbariyatLink a {
+      font-size: 2em;
+   }
+}

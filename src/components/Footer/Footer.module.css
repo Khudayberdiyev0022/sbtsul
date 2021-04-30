@@ -1,0 +1,54 @@
+.main {
+  width: 100%;
+  padding-top: 50px;
+  box-sizing: border-box;
+  background: #0f2b53;
+}
+.container {
+  width: 80%;
+  height: 100%;
+  color: #fff;
+  margin: auto;
+}
+.list {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list ul,
+li {
+  list-style: none;
+  font-size: 18px;
+  padding: 0;
+  margin: 10px 0;
+}
+.list li a {
+  color: rgb(177, 177, 177);
+}
+.blogLinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blogLinks a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.copy {
+  padding-top: 50px;
+  padding-left: 0;
+  opacity: 0.6;
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .list {
+    flex-direction: column;
+  }
+  .blogLinks {
+    flex-direction: column;
+  }
+}
